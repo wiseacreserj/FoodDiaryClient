@@ -23,6 +23,118 @@
   color: #61dafb;
 }
 
+.test-p {
+  color: blue;
+}
+
+.profile-error {
+  margin-top: 15px;
+}
+
+.profile-success {
+  margin-top: 15px;
+}
+
+.page-container{
+  padding-left: 0px;
+  padding-right: 0px;
+  overflow-x:hidden;
+}
+.login-container {
+  display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 50%;
+    max-width: 700px;
+}
+
+.food-list-form {
+  margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.food-list-form-category{
+  width: 30%
+}
+
+.food-list-form-sort {
+  margin-left: 15px;
+  width: 50%;
+}
+
+.diet-page-content-wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.food-list-content-wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.profile-page-form-wrapper {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: center;
+}
+
+.profile-page-form{
+  display: flex;
+    flex-direction: column;
+}
+
+.welcome-page-content{
+  margin-top: 150px;
+  display: flex;
+  justify-content: center
+}
+
+.profile-page-form-group {
+  align-items: center;
+}
+
+.react-bs-table-tool-bar  > div div {
+  padding-top: 0px;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.meal-date-control-wrapper {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meal-date-control-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.range-date-control{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ width: 100%;
+}
+
+.meal-btn-group {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.add-edit-meal-btn {
+  margin-right: 15px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
